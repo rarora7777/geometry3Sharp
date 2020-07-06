@@ -162,7 +162,7 @@ namespace g3
         public void Reset()
         {
             if ( SparseNodes != null ) {
-                SparseQueue.Clear(false);
+                SparseQueue.Clear();
                 SparseNodes.Clear();
                 SparseNodePool.ReturnAll();
 
